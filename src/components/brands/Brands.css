@@ -1,0 +1,29 @@
+.brands h1 {
+  color: rgb(29 29 29);
+}
+
+.brands {
+  margin: 0 auto;
+  max-width: 80vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.brands__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.brands__cards {
+  background-color: white;
+  max-width: 200px;
+  padding: 20px 20px;
+}
+
+.brands__cards img {
+  width: 200px;
+  height: 100%;
+}
